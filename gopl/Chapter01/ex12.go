@@ -11,7 +11,7 @@ import (
 )
 
 func main()  {
-	for i, arg := range os.Args {
-		fmt.Printf("Args[%d] = %v\n", i, arg)
+	for i, arg := range os.Args[1:] {
+		fmt.Printf("os.Args[%d] = %v\n", i + 1, arg)
 	}
 }

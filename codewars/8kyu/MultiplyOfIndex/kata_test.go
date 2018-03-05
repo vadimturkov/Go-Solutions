@@ -3,10 +3,10 @@ package kata
 import (
 	"fmt"
 	"math/rand"
+	"testing"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"testing"
 )
 
 func Test(t *testing.T) {

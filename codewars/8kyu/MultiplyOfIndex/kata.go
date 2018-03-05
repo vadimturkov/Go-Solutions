@@ -1,5 +1,5 @@
 // Solution to CodeWars kata: Multiple of index
-// www.codewars.com/kata/multiple-of-index/
+// https://www.codewars.com/kata/multiple-of-index/
 
 package kata
 

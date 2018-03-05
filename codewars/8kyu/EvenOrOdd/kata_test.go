@@ -9,7 +9,7 @@ import (
 
 func Test(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "Return Negative")
+	RunSpecs(t, "Even or Odd")
 }
 
 var _ = Describe("Test Example", func() {
